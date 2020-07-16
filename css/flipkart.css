@@ -51,6 +51,7 @@ body {
 
 .main_logo_block img {
     width: 75px;
+
     
 }
 
@@ -82,6 +83,7 @@ body {
 
 .plus_logo_block:hover {
     text-decoration: underline;
+
 }
 
 /*   search css starts here */
@@ -153,6 +155,7 @@ body {
 
 .first-child {
     position: relative;
+    z-index: 1;
 }
 
 .dropdown {
@@ -276,6 +279,7 @@ span.plus_icon img {
     color: #212121;
     font-weight: 600;
     font-size: 14px;
+    padding: 12px 0;
 }
 
 #mainMenuBlock ul li a:hover {
@@ -298,13 +302,15 @@ span.plus_icon img {
 
 /*------megamenu block css starts here----*/
 #MegaDropDownMenuBlock  {
-     display: flex;
      background: #fff;
-     height: 75vh;
-     width: 1200px;
+     height: 80vh;
+     width: 1220px;
+     box-shadow: 0px 2px 3px 0px #ccc;
+     margin: 10px 0px;
      position: absolute;
-     box-shadow: 1px 1px 4px 1px #ccc;
-     margin: 11px 0px;
+     left: 135px;
+     display: none;
+     z-index: 1;
 }
 
 #MegaDropDownMenuBlock div {
@@ -337,5 +343,21 @@ span.plus_icon img {
     font-weight: bold !important;
 }
 
+._1h5QLb b {
+    font-weight: bold !important;
+}
+
+#mainMenuBlock ul>li:hover #MegaDropDownMenuBlock {
+    display: flex;
+}
+
+#mainMenuBlock ul>li:hover ._3ynUUz {
+    transform: rotate(90deg) !important;
+    -webkit-transform: rotate(90deg);
+}
+
+#mainMenuBlock ul li:hover ._3ynUUz path {
+    fill: #2874f0 !important;
+}
 /*-------dropdown mega menu end here----*/ 
 /*------megamenu block css ends here----*/
