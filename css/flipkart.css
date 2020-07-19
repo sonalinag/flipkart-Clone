@@ -283,7 +283,7 @@ span.plus_icon img {
 }
 
 #mainMenuBlock ul li a:hover {
-    color: #2874f0;
+     color:#2874f0;
 }
 
 #mainMenuBlock ul li a svg {
@@ -297,6 +297,7 @@ span.plus_icon img {
     fill: #878787 !important;
     opacity: 0.5;
 }
+
 
 /*------main menu block css ends here-------*/
 
